@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bloger.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#"><img class="logo" src="img/logo.png" alt="logo img"></a>
+                <ul class="header__list list-reset">
+                    <li class="header__list-item"><a class="header__list-link" href="index.html">Блогеры</a></li>
+                    <li class="header__list-item"><a class="header__list-link" href="#">Кейсы</a></li>
+                    <li class="header__list-item"><a class="header__list-link" href="#">exit agency</a></li>
+                    <li class="header__list-item"><a class="header__list-link" href="#">Контакты</a></li>
+                </ul>
+                <div class="lang">
+                    <p><a href="#">ru</a> / <a href="#">en</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+    <main class="main">
+        <div class="container">
+            <ul class="breadcrumbs list-reset">
+                <li class="breadcrumbs__item"><a href="#">Главная</a></li>
+                <li class="breadcrumbs__item"><a href="index.html">Блогеры</a></li>
+                <li class="breadcrumbs__item breadcrumbs__item--active"><a href="#">Максим Максимов</a></li>
+            </ul>
+            <section class="main__bloger">
+                <img class="main__bloger-img" src="img/bloger-image.jpg" alt="bloger image">
+                <div class="main__bloger-wrapper">
+                    <h1 class="main__bloger-title title">Максим Максимов</h1>
+                    <div class="main__bloger-socials">
+                        <div class="main__content-social yt-bloger">
+                            <h2 class="main__content-count">3 160 000+</h2>
+                            <p>Подписчиков</p>
+                        </div>
+                        <div class="main__content-social vk-bloger">
+                            <h2 class="main__content-count">134 000+</h2>
+                            <p>Подписчиков</p>
+                        </div>
+                        <div class="main__content-social insta-bloger">
+                            <h2 class="main__content-count">128 000+</h2>
+                            <p>Подписчиков</p>
+                        </div>
+                    </div>
+                    <div class="main__content-info">
+                        <h3 class="main__content-subtitle">
+                            Информация о канале
+                        </h3>
+                        <div id="element">
+                            <div class="overflow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus elit lobortis pellentesque tellus mi nulla morbi. Risus, quis consectetur sagittis pharetra, urna, leo. Egestas porta habitasse fermentum nulla neque. At eget leo sed bibendum nunc. Diam neque, eu velit urna, feugiat vulputate elit justo. Lectus diam lacus vel donec sit. Vitae venenatis amet suscipit enim nec tincidunt sit lacus. Morbi orci, eget vitae tortor cras at eu duis. Sit est, cursus sem facilisis sed ac </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="main__video">
+                <h2 class="main__video-title title">Последние ролики</h2>
+                <div class="main__video-container">
+                    <div class="main__video-item">
+                        <a href="#"><img class="main__video-img" src="img/video-item1.jpg" alt="Video"></a>
+                    </div>
+                    <div class="main__video-item">
+                        <a href="#"><img class="main__video-img" src="img/video-item2.jpg" alt="Video"></a>
+                    </div>
+                    <div class="main__video-item">
+                        <a href="#"><img class="main__video-img" src="img/video-item3.jpg" alt="Video"></a>
+                    </div>
+                    <div class="main__video-item">
+                        <a href="#"><img class="main__video-img" src="img/video-item4.jpg" alt="Video"></a>
+                    </div>
+                    <div class="main__video-item">
+                        <a href="#"><img class="main__video-img" src="img/video-item5.jpg" alt="Video"></a>
+                    </div>
+                    <div class="main__video-item">
+                        <a href="#"><img class="main__video-img" src="img/video-item6.jpg" alt="Video"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="main__other">
+                <div class="main__other-title title">Другие блогеры</div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item1.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item2.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item3.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item4.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item1.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item2.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item3.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item4.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item1.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item2.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item3.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item4.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item1.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item2.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item3.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content-item" data-target-page="bloger.html">
+                            <img class="main__content-img" src="img/main-item4.jpg" alt="Макс Максимов">
+                            <div class="main__content-NonActive">
+                                <div class="main__content-descr">
+                                    <h3 class="main__content-title">Макс Максимов</h3>
+                                    <div class="main__content-socials">
+                                        <div class="main__content-social youtube">3 160 000+</div>
+                                        <div class="main__content-social vk">134 000+</div>
+                                        <div class="main__content-social insta">128 000+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a href="#"><img class="footer__logo" src="img/footer-logo.png" alt="logo footer"></a>
+                <ul class="footer__list list-reset">
+                    <li class="footer__list-item"><a class="footer__list-link" href="#">Cвязаться с нами</a></li>
+                    <li class="footer__list-item"><a class="footer__list-link" href="email:reklama@wildjam.ru">reklama@wildjam.ru</a></li>
+                    <li class="footer__list-item"><a class="footer__list-link" href="#">ул. Сущевская, д. 27, стр. 2</a></li>
+                    <li class="footer__list-item"><a class="footer__list-link" href="tel:+74993933962">+7 (499) 393-39-62</a></li>
+                </ul>
+            </div>
+            <ul class="footer__socials list-reset">
+                <a class="footer__social-link" href="#"><img class="social__img" src="img/footer-vk.svg" alt="VK"></a>
+                <a class="footer__social-link" href="#"><img class="social__img" src="img/footer-insta.svg" alt="Instagram"></a>
+            </ul>
+        </div>
+    </footer>
+    <div id="cursor"><div class="cursor"></div></div>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -29,6 +29,6 @@ async function getContent() {
     loadMoreBlock.insertAdjacentHTML('beforeend', result);
     loadMoreBlock.classList.remove('_loading');
   }else {
-    alert('Error loading!')
+    console.log('Error loading!');
   }
 }
